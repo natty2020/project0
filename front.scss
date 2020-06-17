@@ -1,0 +1,66 @@
+$font-weight: bold;
+
+.jumbotron {
+    background-image: url(pics/ecom-back-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 165px;
+}
+#exampleFormControlInput1::placeholder {
+    color: yellowgreen;
+}
+#sub-btn {
+    margin-top: 65px;            
+}
+.in {
+    ul {
+        @extend #sub-btn;
+        li {
+            display: inline;
+            padding-right: 20px;
+            font-size: larger;
+            color: green;
+        }        
+    }
+    ol {
+        li {
+            display: list-item;
+        }
+    }
+}
+a {
+    color: black;
+}
+p::selection {
+    background-color: yellow;
+}
+a:hover {
+    color: black;
+    text-decoration: none;    
+    font-weight: $font-weight;
+}
+.jumbotron h1 {
+    color: white;
+    text-align: center;    
+}
+#allmart-logo {
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+#sub {
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: $font-weight;
+}
+#subs {
+    color: red;
+    font-weight: $font-weight;
+}
+.tpcs {
+    margin-top: 100px;            
+}
+@media only screen and (max-width: 600px) {
+    p.toHideInSmall {
+      display: none;
+    }
+  }
