@@ -1,11 +1,14 @@
 .jumbotron {
-    background-image: url(ecom-back-7.jpg);
+    background-image: url(pics/ecom-back-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 165px;
 }
 a {
     color: black;
+}
+p::selection {
+    background-color: yellow;
 }
 a:hover {
     color: black;
